@@ -1,0 +1,59 @@
+.button {
+  cursor: pointer;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.button-md {
+  font-size: 16px;
+  padding: 10px 25px;
+}
+
+.button-sm {
+  font-size: 16px;
+  padding: 8px 13px;
+}
+
+.primary {
+  background-color: #90EE90;
+  border: 1px solid black;
+}
+
+.primary:hover {
+  background-color: #3CB371;
+}
+
+.danger {
+  background-color: #FA8072;
+  border: 1px solid black;
+}
+
+.danger:hover {
+  background-color: #CD5C5C;
+}
+
+.outline {
+  background-color: #4682B4;
+  border: 3px solid black;
+  color: white;
+}
+
+.outline:hover {
+  background-color: #008080;
+  color: white;
+}
+
+.outline-danger {
+  background-color: transparent;
+  border: 1px solid black;
+  color: red;
+}
+
+.outline-danger:hover {
+  background-color: #CD5C5C;
+  border: 1px solid #bd2c8a;
+  color: white;
+}

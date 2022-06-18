@@ -1,0 +1,38 @@
+.title {
+  font-size: 23px;
+  text-align: center;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.empty {
+  padding: 40px 25px;
+  text-align: center;
+}
+
+.empty img {
+  margin-bottom: 10px;
+  width: 120px;
+}
+
+.empty h3 {
+  color: red;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.empty p {
+  color: #444;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 750px){
+  .books {
+    display: block;
+  }
+}

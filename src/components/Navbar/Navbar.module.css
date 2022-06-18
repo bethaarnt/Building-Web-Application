@@ -1,0 +1,21 @@
+.navbar {
+  align-items: center;
+  background-color: #FFA07A;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  padding: 0 50px;
+  width: 100%;
+  color: black;
+}
+
+.navbar h1{
+  margin-left: 10px;
+  font-size: 40px;
+}
+
+@media screen and (max-width: 500px){
+  .navbar {
+    padding: 0 20px;
+  }
+}
